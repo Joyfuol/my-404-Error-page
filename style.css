@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.error{
+    color: red;
+    padding-bottom: 80%;
+    letter-spacing: 40px;
+    font-size: xx-large;
+    margin-left: 100%;
+    text-shadow: 10px 10px 5px white, 10px 10px 5px gold, 10px 10px 5px red;
+    
+
+}
+.container{
+    display: flex;
+    background: black;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    padding-left: 80px;
+    width: 100%;
+    
+}
+
+.text{
+    padding-top: 20px;
+    width: 450px;
+    /* display: block;  */
+}
+h2{
+    color: red;
+    box-shadow: 10px 10px 20px white, 10px 10px 10px gold, 20px 20px 5px red;
+    padding-top: 20px;
+    font-size: xx-large;
+}
+
+p{
+    color: white;
+    padding-top: 50px;
+    line-height: 1.5rem;
+}
+
+/* input-box input{
+    width: 80;
+} */
+.button{
+    padding-top: 40px;
+}
+.icon{
+    color: red;
+    background: white;
+
+
+}
+
+li{
+    color: red;
+
+}
+
+ul{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+a{
+    color: red;
+
+}
+
+
+.image{
+    padding: 15% ;
+    width: 1000px;
+    
+}
+
+
+    @media screen and (max-width: 600px){
+        .container{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+
+    }
+    
+
+
+
+    .text,.image,.error{
+        width: 100%;
+    }
+        .container{
+            min-width: 200px;
+            padding: 40px 0;
+        }
+        .text{
+            display: block;
+            width: 100%;
+            padding: 20px 40px;
+        }
+        .error{
+            padding: 3px 0;
+            width:200px;
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .image{
+            display: flex;
+            width: 200px;
+            align-self: center;
+            justify-content: center;
+            margin: auto;
+        }
+    
